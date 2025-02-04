@@ -1,0 +1,20 @@
+@EmployeeAdminPortal_HostAddress = https://localhost:7007
+
+GET {{EmployeeAdminPortal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{EmployeeAdminPortal_HostAddress}}/api/employees
+
+###
+
+
+POST {{EmployeeAdminPortal_HostAddress}}/api/employees
+Content-Type: application/json
+
+{
+  //AddEmployeeDto
+}
+
+###
